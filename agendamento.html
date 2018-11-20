@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MJ Lubrificantes - Agendamento</title>
+    <link rel="icon" href="imagens/favico.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo_cadastro.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+  		<div class="container">
+  			<!--  HEADER -->
+  			<div class="navbar-header">
+  				<!-- botão toggle -->
+  				<button type="button" class="navbar-toggle collapsed"
+  						data-toggle="collapse" data-target="#barra-navegacao">
+  					<span class="sr-only">Alternar navegação</span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+  				<a href="index.html" class="navbar-brand">
+  					<span class="img-logo">MJ Lubrificantes</span>
+  				</a>
+  			</div>
+
+  			<!-- navbar -->
+  			<div class="collapse navbar-collapse" id="barra-navegacao">
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="index.html">Início</a></li>
+  					<li><a href="servico.html">Serviços</a></li>
+  					<li><a href="contato.html">Contato</a></li>
+  					<li class="divisor" role="separator"></li>
+  					<li><a href="cadastro.html">Inscrever-se</a></li>
+  					<li><a href="login.html">Entrar</a></li>
+  				</ul>
+  			</div>
+  		</div><!-- /container -->
+  	</nav><!-- /nav -->
+
+    <!-- capa -->
+  	<div class="capa">
+  		<div class="texto-capa">
+  			<h1>Agendamento</h1>
+  			<!-- <a href="" class="btn btn-custom btn-roxo btn-lg">Aproveite o Spotify Free</a>
+  			<a href="" class="btn btn-custom btn-branco btn-lg">Obter Spotify Premium</a> -->
+  		</div><!-- /texto-capa -->
+  	</div><!-- /capa -->
+
+    <!-- Conteudos -->
+    <section id="conteudo">
+      <div class="container">
+        <div class="row">
+          <h4>Preencha o formulário de agendamento abaixo e escolha o melhor dia e horário para sua comodidade.</h4>
+          <hr/>
+          <form>
+            <h4><strong>Informações do cliente</strong></h4>
+            <hr/>
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <label for="inputNome">Nome Completo</label>
+                <input type="text" class="form-control" id="inputNome" disabled>
+              </div>
+            </div>
+
+            <h4><strong>Informações do Veículo</strong></h4>
+            <hr/>
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <label for="inputFabricante">Fabricante</label>
+                <input type="text" class="form-control" id="inputFabricante" placeholder="Indique o fabricante do veículo">
+              </div>
+              <div class="form-group col-md-6">
+                <label for="inputModelo">Modelo</label>
+                <input type="text" class="form-control" id="inputModelo" placeholder="Indique o modelo do veículo">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-4">
+                <label for="inputCor">Cor</label>
+                <input type="text" class="form-control" id="inputCor" placeholder="Cor do veículo">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputAno">Ano</label>
+                <input type="text" class="form-control" id="inputAno" placeholder="Ano do veículo">
+              </div>
+              <div class="form-group col-md-4">
+                <label for="inputPlaca">Placa</label>
+                <input type="text" class="form-control" id="inputPlaca" placeholder="Placa (XXX-0000)">
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputKm">KM atual</label>
+                <input type="text" class="form-control" id="inputKm" placeholder="Quilômetragem atual">
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputData">Data</label>
+                <input type="date" class="form-control" id="inputData">
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputHora">Horário</label>
+                <input type="time" class="form-control" id="inputHora">
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputServ1">Serviço</label>
+                <select id="inputServ1" class="form-control">
+                  <option selected></option>
+                  <option>Troca de óleo e/ou filtro</option>
+                  <option>Troca de flúido de freios</option>
+                  <option>Higienização de Ar Condicionado</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputServ2">Serviço</label>
+                <select id="inputServ2" class="form-control">
+                  <option selected></option>
+                  <option>Troca de óleo e/ou filtro</option>
+                  <option>Troca de flúido de freios</option>
+                  <option>Higienização de Ar Condicionado</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-4">
+                <label for="inputServ2">Serviço</label>
+                <select id="inputServ2" class="form-control">
+                  <option selected></option>
+                  <option>Troca de óleo e/ou filtro</option>
+                  <option>Troca de flúido de freios</option>
+                  <option>Higienização de Ar Condicionado</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-3">
+                <label for="inputProd1">Produto</label>
+                <select id="inputProd1" class="form-control">
+                  <option selected></option>
+                  <option>Escolha do mecânico</option>
+                  <option>Óleo 20w50</option>
+                  <option>Óleo 10w30</option>
+                  <option>Filtro de óleo</option>
+                  <option>Filtro de Ar</option>
+                  <option>Fluído de Freio</option>
+                  <option>Aditivo</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-3">
+                <label for="inputProd2">Produto</label>
+                <select id="inputProd2" class="form-control">
+                  <option selected></option>
+                  <option>Escolha do mecânico</option>
+                  <option>Óleo 20w50</option>
+                  <option>Óleo 10w30</option>
+                  <option>Filtro de óleo</option>
+                  <option>Filtro de Ar</option>
+                  <option>Fluído de Freio</option>
+                  <option>Aditivo</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-3">
+                <label for="inputProd3">Produto</label>
+                <select id="inputProd3" class="form-control">
+                  <option selected></option>
+                  <option>Escolha do mecânico</option>
+                  <option>Óleo 20w50</option>
+                  <option>Óleo 10w30</option>
+                  <option>Filtro de óleo</option>
+                  <option>Filtro de Ar</option>
+                  <option>Fluído de Freio</option>
+                  <option>Aditivo</option>
+                </select>
+              </div>
+
+              <div class="form-group col-md-3">
+                <label for="inputTotal">Total</label>
+                <input type="text" class="form-control" id="inputTotal" disabled>
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-12">
+                <button type="submit" class="btn btn-primary form-control">Cadastrar</button>
+              </div>
+              <div class="form-group col-md-12">
+                <button type="submit" class="btn btn-primary form-control">Limpar</button> 
+              </div>
+            </div>
+
+          </form>
+        </div><!-- /row -->
+      </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Endereço</h4>
+            <p>Av. Pres. Humberto de Alençar Castelo Branco, 1711 - Vila Augusta</p>
+            <p>07040-030, Guarulhos - SP</p>
+          </div>
+
+          <div class="col-md-6">
+            <center>
+              <h4>Contato</h4>
+              <p>Tel: (11)2414-1104 | Cel: (11) 9 0000-0000</p>
+            </center>
+          </div>
+
+          <div class="col-md-4">
+            <p>Copyright © 2018 MJ Lubrificantes - Todos os direitos reservados</p>
+          </div>
+        </div><!-- /row -->
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

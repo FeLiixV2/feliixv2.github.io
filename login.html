@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>MJ Lubrificantes - Login</title>
+    <link rel="icon" href="imagens/favico.png">
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="estilo_cadastro.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+  	<nav class="navbar navbar-fixed-top navbar-inverse navbar-transparente">
+  		<div class="container">
+  			<!--  HEADER -->
+  			<div class="navbar-header">
+  				<!-- botão toggle -->
+  				<button type="button" class="navbar-toggle collapsed"
+  						data-toggle="collapse" data-target="#barra-navegacao">
+  					<span class="sr-only">Alternar navegação</span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  					<span class="icon-bar"></span>
+  				</button>
+  				<a href="index.html" class="navbar-brand">
+  					<span class="img-logo">MJ Lubrificantes</span>
+  				</a>
+  			</div>
+
+  			<!-- navbar -->
+  			<div class="collapse navbar-collapse" id="barra-navegacao">
+  				<ul class="nav navbar-nav navbar-right">
+  					<li><a href="index.html">Início</a></li>
+  					<li><a href="servico.html">Serviços</a></li>
+  					<li><a href="contato.html">Contato</a></li>
+  					<li class="divisor" role="separator"></li>
+  					<li><a href="cadastro.html">Inscrever-se</a></li>
+  					<li><a href="login.html">Entrar</a></li>
+  				</ul>
+  			</div>
+  		</div><!-- /container -->
+  	</nav><!-- /nav -->
+
+    <!-- capa -->
+  	<div class="capa">
+  		<div class="texto-capa">
+  			<h1>Entre</h1>
+  			<!-- <a href="" class="btn btn-custom btn-roxo btn-lg">Aproveite o Spotify Free</a>
+  			<a href="" class="btn btn-custom btn-branco btn-lg">Obter Spotify Premium</a> -->
+  		</div><!-- /texto-capa -->
+  	</div><!-- /capa -->
+
+    <!-- Conteudos -->
+    <section id="conteudo">
+      <div class="container">
+        <div class="row">
+          <h4>Insira suas credenciais e faça seu login para realizar o agendamento!</h4>
+          <hr/>
+          <form>
+            <h4><strong>Entrar</strong></h4>
+            <hr/>
+            <div class="form-row">
+              <div class="form-group col-md-6 col-md-offset-3">
+                <label for="inputEmail">E-mail</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Insira seu e-mail">
+              </div>
+
+              <div class="form-group col-md-6 col-md-offset-3">
+                <label for="inputSenha">Senha</label>
+                <input type="password" class="form-control" id="inputSenha" placeholder="Insira sua senha">
+              </div>
+            </div>
+
+            <div class="form-row">
+              <div class="form-group col-md-6 col-md-offset-3">
+                <button type="submit" class="btn btn-primary form-control">Entrar</button>
+              </div>
+              <div class="form-group col-md-6 col-md-offset-3">
+                <a href="cadastro.html">
+                  <button type="button" class="btn btn-primary form-control">Inscrever-se</button>
+                </a>
+              </div>
+            </div>
+
+          </form>
+        </div><!-- /row -->
+      </div>
+    </section>
+
+    <!-- rodapé -->
+    <footer id="rodape">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <h4>Endereço</h4>
+            <p>Av. Pres. Humberto de Alençar Castelo Branco, 1711 - Vila Augusta</p>
+            <p>07040-030, Guarulhos - SP</p>
+          </div>
+
+          <div class="col-md-6">
+            <center>
+              <h4>Contato</h4>
+              <p>Tel: (11)2414-1104 | Cel: (11) 9 0000-0000</p>
+            </center>
+          </div>
+
+          <div class="col-md-4">
+            <p>Copyright © 2018 MJ Lubrificantes - Todos os direitos reservados</p>
+          </div>
+        </div><!-- /row -->
+      </div>
+    </footer>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="bootstrap/js/bootstrap.min.js"></script>
+  </body>
+</html>

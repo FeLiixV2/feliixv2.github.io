@@ -1,0 +1,174 @@
+/* ======================= layout =================== */
+html, body{
+	height: 100%;
+}
+
+
+body {
+	background: url('imagens/capa4.jpeg'),
+				url('imagens/ruido.png'),
+				linear-gradient(50deg, #ff4169, #7c26f8);
+	background-attachment: fixed;
+	font-family: Helvetica,Arial,sans-serif;
+	overflow-x: hidden;
+}
+
+/* -- Barra de Navegação --*/
+.img-logo {
+	height: 40px;
+	width: 132px;
+	display: block;
+	background: url('imagens/logo-mj2.png') no-repeat;
+	background-size: contain;
+	color: transparent;
+}
+
+nav.navbar-transparente {
+	padding: 15px 0px;
+	background: rgba(0, 0, 0, 0.6);
+	border: none;
+}
+
+.navbar-brand {
+	padding: 5px 15px;
+}
+
+.divisor {
+	width: 1px;
+	height: 16px;
+	background: white;
+	margin: 16px 10px;
+}
+
+.navbar-inverse .navbar-nav>li>a, #rodape .nav a {
+	color: white;
+}
+
+.navbar-inverse .navbar-nav>li>a:hover, #rodape .nav a:hover {
+	color: #a01010;
+	background: none;
+}
+
+/* -- Imagem de Capa --*/
+
+.capa {
+	display: table;
+	width: 100%;
+	height: 20%;
+	padding-top: 60px;
+}
+
+.texto-capa {
+	text-align: center;
+	color: white;
+	display: table-cell;
+	vertical-align: middle;
+}
+
+/* -- Botões --*/
+.btn-custom {
+	color: white;
+	border-radius: 500px;
+	-webkit-border-radius: 500px;
+	-moz-border-radius: 500px;
+	padding: 10px 35px;
+	margin: 0 15px;
+	text-transform: uppercase;
+	transition: background 0.4s, color 0.4s;
+}
+
+.btn-roxo {
+	background: #7c25f8;
+}
+
+.btn-roxo:hover {
+	background-color: #6207e3;
+	color: white;
+}
+
+.btn-branco {
+	border: 2px solid white;
+}
+
+.btn-branco:hover {
+	background-color: white;
+	color: black;
+}
+
+/* -- Seção Conteudo -- */
+#conteudo {
+	background: white;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.row-content {
+	background-color: red;
+	width: 100%;
+	height: 300px;
+}
+
+.orange {
+	border: 1px solid orange;
+}
+
+
+/* -- Rodapé -- */
+footer {
+	background: #000;
+	padding: 50px 0px 20px 0px;
+	position: relative;
+}
+
+/* ======================= Tipografia =================== */
+
+h1 {
+	font-size: 100px;
+	font-weight: 900;
+	letter-spacing: -0.05em;
+	margin-bottom: 50px;
+}
+
+h2 {
+	font-size: 50px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+h3 {
+	font-size: 35px;
+	font-weight: 700;
+	letter-spacing: -0.04em;
+}
+
+#rodape h4 {
+	color: #919496;
+	font-size: 14px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+#rodape p {
+	color: #919496;
+}
+
+#conteudo h2, h3, h4 {
+	color: #a01010;
+	text-align: center;
+}
+
+#conteudo h5 {
+	color: #000;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+.c-wine {
+	color: #a01010;
+}
+
+.b-text {
+	background: #a01010;
+	padding: 20px;
+}
